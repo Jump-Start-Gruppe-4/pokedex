@@ -1,0 +1,49 @@
+body {
+    padding: 45px;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://free4kwallpapers.com/uploads/originals/2018/06/18/created-a-3d-render-of-a-pokemon-trophy-in-the-grass-wallpaper.jpg") center top;
+    background-size: contain;
+    font-family: "Comic Sans MS";
+    position: relative;
+  }
+
+form {
+  background: darkgreen;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+form input[type="text"] {
+  background: white;
+  min-width: 200px;
+  max-width: 100%;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  margin-left: 8px;
+  background: white;
+  color: black;
+}
+
+.pokemon {
+  text-align: center;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.stats {
+  font-size: 20px;
+}
